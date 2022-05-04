@@ -1,0 +1,23 @@
+@media (max-width: 1199.98px) {
+    /*  (min-width: 225px) and */
+    header .headerTop .headerTop__infoCompany {
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    header .headerTop .headerTop__infoCompany p {
+        font-size: small;
+    }
+}
+
+@media (min-width: 1920px) {
+    .headerTop__infoCompany p {
+        max-width: 1920px;
+    }
+    .headerMain div {
+        max-width: 1920px;
+    }
+}
